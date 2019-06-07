@@ -1,0 +1,28 @@
+
+V
+squid:S106i"9Replace this use of System.out or System.err by a logger.(º¶ïé8ŽÔ±õ²-
+Lsquid:S1481k".Remove this unused "limitTime" local variable.(·‘ƒõ8ŽÔ±õ²-
+\
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(¢ãÐ˜þÿÿÿÿ8ŽÔ±õ²-
+isquid:S2142y"FEither re-interrupt this method or rethrow the "InterruptedException".(ÇâÞáøÿÿÿÿ8™€Ö÷²-
+V
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(½ÿè÷8ŽÔ±õ²-
+Msquid:S00108z")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8™€Ö÷²-
+V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(Ô¤Êí8ŽÔ±õ²-
+ysquid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¼ã¶Öÿÿÿÿÿ8ŽÔ±õ²-
+U
+squid:S106K"9Replace this use of System.out or System.err by a logger.(—Ö÷u8ŽÔ±õ²-
+V
+squid:S106ž"9Replace this use of System.out or System.err by a logger.(Ú­à88ŽÔ±õ²-
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Õ„•ùûÿÿÿÿ8ŽÔ±õ²-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é°¾Îûÿÿÿÿ8ŽÔ±õ²-
+W
+squid:S106–"9Replace this use of System.out or System.err by a logger.(ÿ–Ó·8ŽÔ±õ²-
+W
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(—£ï›8ŽÔ±õ²-
+\
+squid:S106Ž"9Replace this use of System.out or System.err by a logger.(âî¨îþÿÿÿÿ8ŽÔ±õ²-
+W
+squid:S106“"9Replace this use of System.out or System.err by a logger.(¸º•ž8ŽÔ±õ²-
