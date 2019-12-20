@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d67fa20-5a1d-41ee-b855-468c60ca9911" name="Default Changelist" comment="" />
+    <list default="true" id="6d67fa20-5a1d-41ee-b855-468c60ca9911" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/BFPROLAP3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b51a94b0b982cbdc04fc6835b73f31a42f0909bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b51a94b0b982cbdc04fc6835b73f31a42f0909bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/BFPROLAP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/BFPROLAP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/BFPROLAP2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/BFPROLAP2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/connectionsTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/connectionsTest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ks/tcpEstres/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ks/tcpEstres/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ks/tcpEstres/communication/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ks/tcpEstres/communication/Conexion.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+            <state relative-caret-position="190">
+              <caret line="165" column="26" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,13 +58,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/Application.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/connectionsTest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -56,17 +88,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/BFPROLAP.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="99" column="580" selection-start-line="99" selection-start-column="580" selection-end-line="99" selection-end-column="580" />
-            </state>
+            <state relative-caret-position="-816" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/connectionsTest.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/BFPROLAP2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state>
+              <caret column="63" selection-start-column="63" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -83,15 +113,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>1839</find>
+      <find>$OPW100001000001BFPROLAP181105 031662018110513393552PRO1B0724915666232669006   PRO1P00303047845136            P1207334</find>
+      <find>5062210140048082</find>
+      <find>6363180101376661</find>
     </findStrings>
     <replaceStrings>
       <replace>1835</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO/Reader.java" />
         <option value="$PROJECT_DIR$/.idea/config/BFPROLAP.txt" />
@@ -99,11 +134,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO/Mapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO/BFPROLAP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/model/Connection.java" />
-        <option value="$PROJECT_DIR$/config/BFPROLAP2.txt" />
-        <option value="$PROJECT_DIR$/config/BFPROLAP.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/Application.java" />
+        <option value="$PROJECT_DIR$/config/BFPROLAP3.txt" />
+        <option value="$PROJECT_DIR$/config/BFPROLAP2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java" />
+        <option value="$PROJECT_DIR$/config/BFPROLAP.txt" />
         <option value="$PROJECT_DIR$/config/connectionsTest.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -126,10 +164,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,94 +182,37 @@
               <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
               <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcpEstres" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcpEstres" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MisPruebas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JoelMedina\OneDrive - KS Soluciones\Documentos\KS\IdeaProjects\tcpEstres\config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoelMedina\OneDrive - KS Soluciones\Documentos\KS\IdeaProjects\tcpEstres" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ks.tcpEstres.IO" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JoelMedina\OneDrive - KS Soluciones\Documentos\KS\IdeaProjects\tcpEstres" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoelMedina\OneDrive - KS Soluciones\Documentos\KS\IdeaProjects\tcpEstres\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,40 +250,74 @@
       <workItem from="1559746125537" duration="17408000" />
       <workItem from="1559853851814" duration="6637000" />
       <workItem from="1559929562847" duration="8096000" />
-      <workItem from="1559944112514" duration="497000" />
+      <workItem from="1559944112514" duration="2715000" />
+      <workItem from="1560051505153" duration="1028000" />
+      <workItem from="1560175666102" duration="49036000" />
+      <workItem from="1560440838114" duration="8039000" />
+      <workItem from="1560525061686" duration="2305000" />
+      <workItem from="1562366173252" duration="1984000" />
+      <workItem from="1563218275467" duration="4599000" />
+      <workItem from="1563228438370" duration="1136000" />
+      <workItem from="1563232596501" duration="624000" />
+      <workItem from="1563292221694" duration="273000" />
+      <workItem from="1563293694295" duration="4022000" />
+      <workItem from="1563301260785" duration="4901000" />
+      <workItem from="1563313817754" duration="9613000" />
+      <workItem from="1563380347979" duration="1180000" />
+      <workItem from="1563400387164" duration="17613000" />
+      <workItem from="1563559258226" duration="13615000" />
+      <workItem from="1563820843088" duration="9706000" />
+      <workItem from="1564511465874" duration="3203000" />
+      <workItem from="1564669464903" duration="4549000" />
+      <workItem from="1565016367501" duration="3747000" />
+      <workItem from="1565031538887" duration="1237000" />
+      <workItem from="1565126047255" duration="1951000" />
+      <workItem from="1565200143187" duration="16431000" />
+      <workItem from="1565364322432" duration="8888000" />
+      <workItem from="1565621329027" duration="3550000" />
+      <workItem from="1565807950360" duration="1333000" />
+      <workItem from="1576864772926" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32160000" />
+    <option name="totallyTimeSpent" value="209553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25054705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33208954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Analysis Results" order="7" />
+      <window_info id="Analysis Trace" order="8" weight="0.32932165" />
+      <window_info id="Audit Summary" order="9" />
+      <window_info id="Issue Summary" order="10" />
+      <window_info anchor="bottom" id="Run with VisualVM" />
+      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.54814005" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39761648" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.1619256" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39847717" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.38353196" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
       <window_info anchor="bottom" id="SonarQube" order="16" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,25 +331,29 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33260393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Analysis Results" order="7" />
+      <window_info id="Analysis Trace" order="8" weight="0.32932165" />
+      <window_info id="Audit Summary" order="9" />
+      <window_info id="Issue Summary" order="10" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.5306346" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.16243654" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40043762" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.38353196" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -354,19 +375,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java</url>
-          <line>65</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="new File(&quot;./config/connectionsTest.json&quot;).exists()" language="JAVA" custom="java.io.File" />
@@ -396,13 +431,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/IO/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -435,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ks/kslib/1.8.2.1/kslib-1.8.2.1.jar!/com/ks/lib/tcp/Tcp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/model/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -452,46 +473,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/BFPROLAP2.txt">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ks/kslib/1.8.2.1/kslib-1.8.2.1.jar!/com/ks/lib/tcp/Tcp.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="148" selection-start-column="148" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/BFPROLAP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="580" selection-start-line="99" selection-start-column="580" selection-end-line="99" selection-end-column="580" />
+        <state relative-caret-position="223">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/BFPROLAP3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2412" selection-start-line="17" selection-end-line="17" selection-end-column="2412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/BFPROLAP2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/BFPROLAP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/connectionsTest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ks/tcpEstres/communication/Conexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1059">
-          <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+        <state relative-caret-position="190">
+          <caret line="165" column="26" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/connectionsTest.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

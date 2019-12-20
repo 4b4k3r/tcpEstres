@@ -1,28 +1,32 @@
 
-V
-squid:S106i"9Replace this use of System.out or System.err by a logger.(º¶ïé8Ô±õ²-
-Lsquid:S1481k".Remove this unused "limitTime" local variable.(·‘ƒõ8Ô±õ²-
-\
-squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(¢ãĞ˜şÿÿÿÿ8Ô±õ²-
-isquid:S2142y"FEither re-interrupt this method or rethrow the "InterruptedException".(ÇâŞáøÿÿÿÿ8™€Ö÷²-
-V
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(½ÿè÷8Ô±õ²-
-Msquid:S00108z")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8™€Ö÷²-
-V
-squid:S106>"9Replace this use of System.out or System.err by a logger.(Ô¤Êí8Ô±õ²-
+W
+squid:S106„"9Replace this use of System.out or System.err by a logger.(ØÁòã8¸ «´µ-
 ysquid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¼ã¶Öÿÿÿÿÿ8Ô±õ²-
-U
-squid:S106K"9Replace this use of System.out or System.err by a logger.(—Ö÷u8Ô±õ²-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ú­à88Ô±õ²-
 [
-squid:S106:"9Replace this use of System.out or System.err by a logger.(Õ„•ùûÿÿÿÿ8Ô±õ²-
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ñ€º„úÿÿÿÿ8ôàªŸ³-
+Gsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸ «´µ-
+wsquid:S2445¨"S"totalMessages" is not "private final", and should not be used for synchronization.(ô‘óûÿÿÿÿ8¸ «´µ-
+Gsquid:S3010`"*Remove this assignment of "tasksFinished".(“èõb8ôàªŸ³-
+Ysquid:S1141š"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ8¸ «´µ-
 ~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é°¾Îûÿÿÿÿ8Ô±õ²-
-W
-squid:S106–"9Replace this use of System.out or System.err by a logger.(ÿ–Ó·8Ô±õ²-
-W
-squid:S106‚"9Replace this use of System.out or System.err by a logger.(—£ï›8Ô±õ²-
+Gsquid:S3010a"*Remove this assignment of "totalMessages".(Ï¹Øp8ôàªŸ³-
+jsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ÇâŞáøÿÿÿÿ8™€Ö÷²-
 \
-squid:S106"9Replace this use of System.out or System.err by a logger.(âî¨îşÿÿÿÿ8Ô±õ²-
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(¢ãĞ˜şÿÿÿÿ8Ô±õ²-
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(Ô¤Êí8¸ «´µ-
+usquid:S3776x"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ºø¿Öûÿÿÿÿ8¸ «´µ-
+U
+squid:S106f"9Replace this use of System.out or System.err by a logger.(—Ö÷u8Ô±õ²-
+Fsquid:S1148W"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸ «´µ-
+[
+squid:S106G"9Replace this use of System.out or System.err by a logger.(›¢ş¬ûÿÿÿÿ8Ô±õ²-
+V
+squid:S106t"9Replace this use of System.out or System.err by a logger.(½ÿè÷8Ô±õ²-
 W
-squid:S106“"9Replace this use of System.out or System.err by a logger.(¸º•8Ô±õ²-
+squid:S106°"9Replace this use of System.out or System.err by a logger.(¡œŠ®8¸ «´µ-
+Esquid:S1860”"&Synchronize on a new "Object" instead.(ÿÂÀ8¸ «´µ-
+Jsquid:S1860­"&Synchronize on a new "Object" instead.(öğ‚Åşÿÿÿÿ8¸ «´µ-
+W
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(ÿ–Ó·8Ô±õ²-
+Jsquid:S1860¨"&Synchronize on a new "Object" instead.(ô‘óûÿÿÿÿ8¸ «´µ-

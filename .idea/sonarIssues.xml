@@ -3,7 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/km-kolector-rest/log/kolector.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/km-kolector-rest/src/main/java/com/ks/collector/transaction/ProcessBf.java">
           <value>
             <set />
           </value>
@@ -58,12 +73,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../carga_batch_hd/src/main/java/com/ks/carga_batch/commerce/processing/ProcessData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../replicador/config/connections.json">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../replicador/config/layout.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/config/liverpool/connections.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/config/liverpool/layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/config/liverpool/layout2.xml">
           <value>
             <set />
           </value>
@@ -88,12 +123,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../replicador/replicador.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/AlertaDiaria.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/App.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/comunicaciones/ConexionTcp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/comunicaciones/ConnectionTcp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/data/CargaConfiguracion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/data/Columns.java">
           <value>
             <set />
           </value>
@@ -108,7 +168,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/db/BaseBKPs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/db/BaseDatos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/db/DBPool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/db/Mongo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/db/MongoManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/filter/Filters.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/main/java/com/ks/replicador/groups/Groups.java">
           <value>
             <set />
           </value>
@@ -133,6 +223,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../replicador/src/test/java/com/ks/replicador/db/BaseDatosTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/config/BFPROLAP.txt">
           <value>
             <set />
@@ -149,6 +249,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/config/BFPROLAP2.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/BFPROLAP3.txt">
           <value>
             <set />
           </value>

@@ -1,0 +1,6 @@
+<component name="libraryTable">
+  <library name
+/.idea
+src/main/resources/
+src/test/
+target/generated-sources/

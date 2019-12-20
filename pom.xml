@@ -6,7 +6,7 @@
 
     <groupId>com.ks</groupId>
     <artifactId>tcpEstres</artifactId>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <build>
         <plugins>
             <plugin>

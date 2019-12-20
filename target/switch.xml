@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="5">
+    <Appenders>
+        <RollingFile name="file-day" fileName="/home/aperdomo/switch/log/switch/switch.log" filePattern="/home/aperdomo/switch/log/switch/history/switch-%d{yyyy-MM-dd}.log">
+            <MarkerFilter marker="JSON" onMatch="DENY" onMismatch="ACCEPT"/>
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} %-5level [%t] %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="file-day2" fileName="/home/aperdomo/switch/log/switch/switch.json" filePattern="/home/aperdomo/switch/log/switch/history/switch-%d{yyyy-MM-dd}.json">
+            <MarkerFilter marker="JSON" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} %-5level [%t] %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="file-day"/>
+            <AppenderRef ref="file-day2"/>
+        </Root>
+    </Loggers>
+</Configuration>

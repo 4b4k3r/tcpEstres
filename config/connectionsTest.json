@@ -1,11 +1,11 @@
 [
   {
     "name": "REPLICADOR-TEST",
-    "ip": "localhost",
+    "ip": "192.168.1.76",
     "port": 5000,
-    "quantity": 5,
+    "quantity":5,
     "filesRoute": "./config/BFPROLAP.txt",
-    "duration": 10,
-    "validateConnection": true
+    "duration":7200,
+    "validateConnection": false
   }
 ]

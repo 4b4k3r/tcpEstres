@@ -13,6 +13,7 @@ public class Application
     {
         System.out.println("Inicia sesion de pruebas " + new Date().toString());
         List<Connection> connections = new Connection().recoverConnections("./config/connectionsTest.json");
+
         connections.forEach(connection -> {
             try
             {
@@ -25,6 +26,7 @@ public class Application
                 System.out.println("Error Leyendo el archivo " + connection.getFilesRoute());
             }
         });
+
         connections.forEach(Conexion::newConnection);
         System.out.println("Finalizo la tarea de " + connections.size() + " test(s)");
         System.exit(0);

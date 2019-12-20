@@ -21,19 +21,21 @@ public class Conexion implements EventosTCP
     private int duration;
     private boolean validateConnection;
     private Thread sendThread;
-    private long sendMessages;
+    private Integer sendMessages;
     private String name;
     private boolean isValid;
-    private static int tasksFinished;
-    private static int totalMessages;
+    private static Integer tasksFinished;
+    private static Integer totalMessages;
+    private Thread execution;
 
     public static void newConnection(Connection connection)
     {
-        int counter = 1;
         try
         {
+            int counter = 0;
             while (sequential <= connection.getQuantity())
             {
+                counter++;
                 Conexion conexion = new Conexion();
                 conexion.setMessagesToSend(connection.getMessagesToSend());
                 conexion.setConnectionNumber(sequential);
@@ -54,21 +56,35 @@ public class Conexion implements EventosTCP
                 System.out.println("Se ha configurado la conexion numero " + counter + " de las pruebas " + connection.getName());
                 conexions.add(conexion);
                 conexiones.put(connection.getName(), conexions);
-                counter++;
-                conexion.getTcp().conectar();
+
+                conexion.execution = new Thread(conexion::startProcess);
+                conexion.execution.setDaemon(true);
+                conexion.execution.setName(connection.getName() + "" + counter);
+                conexion.execution.start();
             }
 
-            while (tasksFinished != connection.getQuantity())
+            while (!tasksFinished.equals(connection.getQuantity()))
             {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             }
 
-            conexiones.get(connection.getName()).forEach(conexion -> ((Cliente) conexion.tcp).cerrar());
             System.out.println("Finalizo la ejecucion de " + tasksFinished + " conexiones de la prueba " + connection.getName() + " de tipo cliente enviando un total de " + totalMessages + " mensaje(s)");
         }
         catch (Exception e)
         {
             System.out.println("Error al configurar alguna conexion del objeto de conexiones " + connection.getName());
+        }
+    }
+
+    private void startProcess()
+    {
+        try
+        {
+            getTcp().conectar();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
         }
     }
 
@@ -109,39 +125,58 @@ public class Conexion implements EventosTCP
             {
                 while (!isValid)
                 {
-                    Thread.sleep(200);
+                    Thread.sleep(20);
                 }
             }
 
-            System.out.println("Enviando cola de mensajes desde la conexion " + name + " numero " + connectionNumber + " durante " + duration + " minuto(s)");
+            System.out.println("Enviando cola de mensajes desde la conexion " + name + " numero " + connectionNumber + " durante " + duration + " segundo(s)");
 
-            final long limitTime = System.currentTimeMillis() + (duration * 60 * 1000);
+            final long limitTime = System.currentTimeMillis() + (duration * 1000);
+
 
             while (limitTime > System.currentTimeMillis())
             {
-                this.messagesToSend.forEach(message -> {
+                for (String message : this.messagesToSend)
+                {
+                    if (limitTime <= System.currentTimeMillis())
+                    {
+                        break;
+                    }
+
                     if (((Cliente) this.tcp).isConnected())
                     {
-                        this.tcp.enviar(message);
-                        sendMessages++;
+                        synchronized (sendMessages)
+                        {
+                            this.tcp.enviar(message);
+                            sendMessages++;
+                        }
 
                         try
                         {
-                            Thread.sleep(30);
+                            Thread.currentThread().sleep(5);
                         }
                         catch (InterruptedException e)
                         {
+                            e.printStackTrace();
                         }
                     }
-                });
-                Thread.sleep(10);
+                }
             }
 
-            totalMessages += sendMessages;
-            tasksFinished++;
+            Thread.sleep(2);
 
-            System.out.println("El envio de mensajes de la conexion :" + name + " numero " + connectionNumber + " ha finalizado con un total de " + sendMessages + " mesajes enviados");
+            synchronized (totalMessages)
+            {
+                totalMessages += sendMessages;
+            }
 
+            synchronized (tasksFinished)
+            {
+                tasksFinished++;
+                System.out.println("El envio de mensajes de la conexion :" + name + " numero " + connectionNumber + " ha finalizado con un total de " + sendMessages + " mesajes enviados, tareas finalizadas " + tasksFinished);
+            }
+
+            ((Cliente) this.tcp).cerrar();
             this.messagesToSend.clear();
         }
         catch (Exception e)
